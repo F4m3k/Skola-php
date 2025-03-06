@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="zpracovat.php" method="post">
+        <h1>Formulářové prvky</h1>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <input type="radio" name="radio1" id="m" required> Muž
+        <input type="radio" name="radio1" id="ž"> Žena<br><br>
+        <input type="checkbox" name="news" id="news" value="1" >Odesílat novinky <br><br>
+        <select name="select1" required>
+            <option value="1">Boskovice</option>
+            <option value="2">Letovice</option>
+            <option value="3">Prčice</option>
+            <option value="4">Jiné</option>
+        
+        </select><br><br>
+
+        <textarea name="textarea1" rows="4" cols="50" placeholder="Sem zadej text" required></textarea><br><br>
+
+        <input type="submit" value="Odeslat"> &nbsp;&nbsp;
+        <input type="reset" value="Reset">
+
+    </form>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
