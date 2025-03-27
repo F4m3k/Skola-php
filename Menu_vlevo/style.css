@@ -1,0 +1,76 @@
+/* Profesionálně nablitý barvičky */
+
+:root {
+    --bg-color: #121a13;
+    --nav-bg: #1e2b17;
+    --text-color: #d4e157;
+    --text-light: #c5e1a5;
+    --hover-color: #8bc34a;
+    --border-color: #4caf50;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-light);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  nav {
+    width: 200px;
+    height: 100vh;
+    background-color: var(--nav-bg);
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    position: fixed;
+  }
+
+  nav:hover {
+    
+  }
+  
+  nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: var(--hover-color);
+    color: #000;
+  }
+  
+  #main {
+    margin-left: 220px;
+    padding: 40px;
+    max-width: 800px;
+    flex: 1;
+  }
+  
+  h1 {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  footer {
+    margin-left: 220px;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--nav-bg);
+    color: var(--text-light);
+    position: relative;
+    bottom: 0;
+    width: calc(98% - 220px);
+  }
