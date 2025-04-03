@@ -1,0 +1,84 @@
+/* Profesionálně nablitý barvičky */
+
+:root {
+    --bg-color: #121a13;
+    --nav-bg: #1e2b17;
+    --text-color: #d4e157;
+    --text-light: #c5e1a5;
+    --hover-color: #8bc34a;
+    --border-color: #4caf50;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-light);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 98%;
+  }
+  
+  nav {
+    width: 100%;
+    height: 70px;
+    background-color: var(--nav-bg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+  }
+  
+  nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: var(--hover-color);
+    color: #000;
+  }
+  
+  #main {
+    margin-top: 2%;
+    padding: 40px;
+
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  h1 {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  footer { 
+    padding: 10px;
+    text-align: center;
+    background-color: var(--nav-bg);
+    color: var(--text-light);
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+    margin-left: 1%;
+  }
+
+  .kostka{
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 5%;
+    background-color: #020c05;
+  }

@@ -4,18 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>O nás</title>
+    <title>Stránky s menu vlevo</title>
   </head>
   <body>
-    <nav>
-      <a href="index.html">Úvod</a>
-      <a href="o_nas.html">O nás</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="galerie.html">Galerie</a>
-    </nav>
+  <?php include "nav.html"; ?>
 
     <div id="main">
-      <h1>O nás</h1>
+      <h1>Úvodní stránka</h1>
       <p>
         Dolor quis deserunt commodo eu non sint officia dolor excepteur laboris.
         Non minim sunt veniam commodo cupidatat officia adipisicing laborum. Do
@@ -39,12 +34,8 @@
         excepteur in aliquip amet do. Officia ullamco nulla mollit aute fugiat
         excepteur.
       </p>
-      
     </div>
 
-    <footer>
-      <span>27.3.2025</span>
-      <span>&copy; Famek</span>
-    </footer>
+    <?php include "footer.html"; ?>
   </body>
 </html>
